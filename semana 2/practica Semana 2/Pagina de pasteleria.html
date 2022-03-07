@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 2 HTML</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Estilo de header */
+        header {
+            background-color: #666;
+            padding: 30px;
+            text-align: center;
+            font-size: 25px;
+            color: white;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            height: 300px;
+        }
+
+        /* Clear floats after the columns */
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Estilo de footer */
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>PASTEROIDE</h1>  
+        <img src="./Logo_Pasteroide.JPG" alt="Logo pasteroide" width="280px"
+        height="220px">
+        <h3>Bienvenidos a PASTEROIDE el pastel de otro MUNDO</h3>
+    </header>
+     
+    <h2>Sabores de pastel</h2>
+    <P>Pastel sabor mora............................$150</P>
+    <P>Pastel sabor vainilla........................ $160</P>
+    <P>Pastel sabor chocolate.......................$190</P>
+    <P>Pastel sabor limon..........................$350</P>
+    <P>Pastel sabor Fresa...........................$150</P>
+    <P>Pastel sabor Durazno.........................$150</P>
+
+
+    <h2>Tipos de decoracion</h2>
+    <P>Colocar Nombre......................................................$15</P>
+    <P>Colocar vela con su edad........................ ...................$20</P>
+    <P>colocarles chispas de chocolate.....................................$35</P>
+    <P>Hacer dibujo sobre el pastel comestible (Enviar diseño)..........................$100</P>
+    <P>Colocarle figuras mermelada al pastel(estrellas,corazon etc.).................$25</P>
+
+     <a href="./pedido.HTML">
+         <button>Hacer pedido</button> <br><br>
+
+     </a>  
+     
+     <p>Direccion-> colonia Linda vista #37 -- #telefono-> 9361514141 -- Hora de atencion-> Lunes a Viernes 8:00am a 4:00pm</p> <br>   
+
+</body>
+
+</html>
