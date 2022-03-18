@@ -1,0 +1,187 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+position:absolute;
+height: 2350px;
+width: 1600px;
+left: 200px;
+right: 200px;
+
+
+}
+
+div{
+    height: 400px;
+}
+
+.fondoCompleto{
+    background-image: url(./imagenes/fondo2.jpg);
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
+    
+
+
+}
+
+.Rectangulo{
+    width: 450px;
+    height: 120px;
+    position: absolute;
+    left: 200px ;
+    top: 150px;
+}
+
+.Rectangulo2{
+    width: 450px;
+    height: 120px;
+    position: absolute;
+    left: 200px ;
+    top: 290px;
+}
+
+.Rectangulo3{
+    width: 450px;
+    height: 120px;
+    position: absolute;
+    right: 320px ;
+    top: 550px; 
+}
+.Rectangulo4{
+    width: 450px;
+    height: 120px;
+    position: absolute;
+    right: 320px ;
+    top: 620px; 
+}
+.Rectangulo5{
+    width: 450px;
+    height: 120px;
+    position: absolute;
+    right: 200px ;
+    top: 1100px; 
+}
+.Rectangulo6{
+    width: 450px;
+    height: 120px;
+    position: absolute;
+    right: 200px ;
+    top: 1150px; 
+}
+
+.Rectangulo7{
+    width: 450px;
+    height: 120px;
+    position: absolute;
+    left: 250px ;
+    top: 1780px; 
+}
+
+.Rectangulo8{
+    width: 550px;
+    height: 300px;
+    position: absolute;
+    left: 250px ;
+    top: 1850px; 
+}
+.Rectangulo9{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 350px ;
+    top: 1850px; 
+}
+
+
+
+.inicio{
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    left: 250px;
+    
+    
+}
+.inicio1{
+    width: 800px;
+    height: 40px;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    
+}
+
+
+.portada1{
+    background-image: url(./imagenes/imagen\ portada1.JPG);
+    background-position: center;
+    background-size: contain;
+    width: 500px;
+    height: 310px;
+    position: absolute;
+    right: 280px;
+    top: 150px;
+}
+
+.portada2{
+    background-image: url(./imagenes/portada2.JPG);
+    background-position: center;
+    background-size:cover;
+    width: 700px;
+    height: 550px;
+    position: absolute;
+    left: 150px;
+    top: 1150px;
+}
+
+.portada3{
+    background-image: url(./imagenes/antes.JPG);
+    width: 400px;
+    height: 380px;
+    position: absolute;
+    right: 250px;
+    top: 1350px;
+}
+
+
+.Tiposdevacuna{
+    background-image: url(./imagenes/COVID\ 19\ Vaccines\ Infographic\ Spanish.png);
+    background-size: 100%;
+    width: 430px;
+    height: 490px;
+    position: absolute;
+    left: 200px;
+    top: 470px;
+    
+}
+.cuatroelementos{
+    background-image: url(./imagenes/4aspectos.JPG);
+    background-size:contain;
+    width: 650px;
+    height: 160px;
+    position: absolute;
+    right: 200px;
+    top: 770px;
+    
+}
+.Final{
+    background-image: url(./imagenes/final.JPG);
+    background-position: center;
+    width: 1000px;
+    height: 180px;
+    position: absolute;
+    left: 320px;
+    top: 2160px;
+    
+}
+
+.Textoportada {
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+.Textoinico{
+    font: small-caps 200%/100% serif;
+    color: rgb(0, 0, 0);
+}
